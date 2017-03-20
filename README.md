@@ -1,7 +1,7 @@
 # music-jump
 A music based jumping game made in Phaser
 
-![](https://github.com/sogalutira/wheeler-phaser/blob/master/assets/gamescreen.png)
+![](https://github.com/creindle/wheeler-phaser/blob/master/assets/gamescreen.png)
 
 ## Part 1 - Lets Display the Graphics!
 
