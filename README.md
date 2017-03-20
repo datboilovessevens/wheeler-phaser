@@ -156,9 +156,11 @@ Play around with these numbers to understand the positioning
 
 Lets also set the game stage **background color** to `#3498db` so the player isn't in the dark.
 
+Use  ```game.stage.backgroundColor ``` to set the background color.
+
 ***Commit your code!***
 
-### Step 8 - Create the Platform for the Player
+### Step 6 - Create the Platform for the Player
 
 Your player is floating! We need to create a ground for the player!
 
@@ -186,7 +188,7 @@ Your game now has a player, a stage, and an obstacle!
 
 ***Commit your code!***
 
-##Part 2 - Lets Add Movement!
+## Part 2 - Lets Add Movement!
 
 ### Step 1 - Set the Physics Engine
 Set the game physics to Arcade style and enable this for the player, ground, and obstacle in the **create** function with:
@@ -236,9 +238,6 @@ function update(){
 ***Commit your code!***
 
 ### Step 2 - Move the Player!
-Create a variable called `INITIAL_MOVESPEED` and set it to a number between 1-10.
-
-Within the **create** function, after the creation of the player sprite, initialize the attribute `moveSpeed` on the player and set it to INITIAL_MOVESPEED.
 
 Set the value of `spaceKey` to register the key after the space bar has been pressed.
 
