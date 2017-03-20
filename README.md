@@ -160,7 +160,7 @@ Use  ```game.stage.backgroundColor ``` to set the background color.
 
 ***Commit your code!***
 
-### Step 8 - Create the Platform for the Player
+### Step 6 - Create the Platform for the Player
 
 Your player is floating! We need to create a ground for the player!
 
