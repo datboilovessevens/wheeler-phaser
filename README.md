@@ -107,7 +107,7 @@ This should appear in your console
 
 ***Commit your code!***
 
-![](https://github.com/sogalutira/wheeler-phaser/blob/master/assets/p1step5.png)
+![](https://github.com/sogalutira/wheeler-phaser/blob/master/assets/p1step4-5.png)
 
 ### Step 5 - Load the Images
 Use the game load operation to load an image file:
