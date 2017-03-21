@@ -5,6 +5,8 @@ A music based jumping game made in Phaser
 
 ## Part 1 - Lets Display the Graphics!
 
+![](https://github.com/sogalutira/wheeler-phaser/blob/master/assets/p1step1.png)
+
 ### Step 1 - Reference Executable Script
 
 + Use the HTML ```<script>``` element to reference the executable scripts in your **js** directory.
@@ -20,6 +22,8 @@ A music based jumping game made in Phaser
 ```
 
 ***Commit your code!***
+
+![](https://github.com/sogalutira/wheeler-phaser/blob/master/assets/p1step2.png)
 
 ### Step 2 - Sanity Check
 
@@ -85,6 +89,8 @@ game.state.start();
 
 ***Commit your code!***
 
+![](https://github.com/sogalutira/wheeler-phaser/blob/master/assets/p1step3.png)
+
 ### Step 4 - Create Game Container
 Create the **game container** in the index.html
 
@@ -100,6 +106,8 @@ This should appear in your console
 ```Phaser v2.6.2 | Pixi.js | WebGL | WebAudio     http://phaser.io ♥♥♥```
 
 ***Commit your code!***
+
+![](https://github.com/sogalutira/wheeler-phaser/blob/master/assets/p1step4-5.png)
 
 ### Step 5 - Load the Images
 Use the game load operation to load an image file:
@@ -162,6 +170,8 @@ Use  ```game.stage.backgroundColor ``` to set the background color.
 
 ***Commit your code!***
 
+![](https://github.com/sogalutira/wheeler-phaser/blob/master/assets/p1step6.png)
+
 ### Step 6 - Create the Platform for the Player
 
 Your player is floating! We need to create a ground for the player!
@@ -191,6 +201,8 @@ Your game now has a player, a stage, and an obstacle!
 ***Commit your code!***
 
 ## Part 2 - Lets Add Movement!
+
+![](https://github.com/sogalutira/wheeler-phaser/blob/master/assets/p2step1.png)
 
 ### Step 1 - Set the Physics Engine
 Set the game physics to Arcade style and enable this for the player, ground, and obstacle in the **create** function with:
@@ -239,6 +251,8 @@ function update(){
 
 ***Commit your code!***
 
+![](https://github.com/sogalutira/wheeler-phaser/blob/master/assets/p2step2.png)
+
 ### Step 2 - Move the Player!
 
 Set the value of `spaceKey` to register the key after the space bar has been pressed.
@@ -272,6 +286,8 @@ Your character is able to jump!
 
 ***Commit your code!***
 
+![](https://github.com/sogalutira/wheeler-phaser/blob/master/assets/p2step3.png)
+
 ### Step 3 - Make the obstacle move!
 
 In the **update** function, we will need to simply move the obstacle to the left if it is on the right side of the screen by decreasing its x position.
@@ -287,6 +303,8 @@ if (obstacle.x > 600) {
 Test this out! Don't forget to jump!
 
 ***Commit your code!***
+
+![](https://github.com/sogalutira/wheeler-phaser/blob/master/assets/p2step4.png)
 
 ### Step 4 - Create a new wall if the old wall goes off the screen.
 
@@ -306,6 +324,8 @@ if (obstacle.x < 0) {
 ```
 
 ***Commit your code!***
+
+![](https://github.com/sogalutira/wheeler-phaser/blob/master/assets/p2step5.png)
 
 ### Step 5 - Create a score!
 
