@@ -101,7 +101,7 @@ if (obstacle.x < 0) {
   };
 //This will tell you "You Lose!" if the player is pushed off the left side of the screen.
   if (player.x < 0){
-    scoreText = game.add.text(350,200, 'You FAILED!', {fill: '#ff0000'});
+    scoreText = game.add.text(350,200, 'You CRASHED!', {fill: '#ff0000'});
     obstacle.kill();
     player.kill();
   }; 
